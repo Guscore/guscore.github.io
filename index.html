@@ -2,14 +2,71 @@
 <html lang="th">
 <head>
 <meta charset="UTF-8">
-<title>Guscore</title>
+<title>Guscore - ตารางคะแนน</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Tahoma,Arial,sans-serif;
+  background:#f4f6fb;
+}
+
+header{
+  background:#1e1e3f;
+  color:white;
+  padding:15px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.logo{
+  font-size:24px;
+  font-weight:bold;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-weight:bold;
+}
+
+nav a:hover{
+  text-decoration:underline;
+}
+
+.container{
+  max-width:1000px;
+  margin:30px auto;
+  background:white;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1{
+  margin-top:0;
+}
+</style>
 </head>
 <body>
 
-<h1>ยินดีต้อนรับสู่ Guscore</h1>
-<p>นี่คือเว็บรายงานผลฟุตบอล</p>
+<header>
+  <div class="logo">Guscore</div>
+  <nav>
+    <a href="index.html">ตารางคะแนน</a>
+    <a href="scorers.html">ดาวยิง</a>
+    <a href="#">Match Week</a>
+  </nav>
+</header>
 
-<a href="scorers.html">ไปหน้าดาวยิง</a>
+<div class="container">
+  <h1>ตารางคะแนน พรีเมียร์ลีก</h1>
+  <p>ยินดีต้อนรับสู่เว็บฟุตบอล Guscore</p>
+
+  <!-- ตรงนี้ เดี๋ยวเราจะใส่ตารางคะแนนจริงในขั้นถัดไป -->
+</div>
 
 </body>
 </html>
